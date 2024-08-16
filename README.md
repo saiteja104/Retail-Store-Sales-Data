@@ -1,8 +1,8 @@
 Retail Store Sales Clustering using K-Means
-Objective
+Objective: 
 This project segments retail stores into distinct clusters based on their sales performance using the K-Means clustering algorithm. The goal is to identify similar store groups, providing insights into business strategy and performance optimization.
 
-Dataset
+Dataset: 
 The dataset used is the Retail Store Sales Dataset with the following columns:
 
 StoreID
