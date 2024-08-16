@@ -1,9 +1,9 @@
 Retail Store Sales Clustering using K-Means
 Objective
-The purpose of this project is to segment retail stores into distinct clusters based on their sales performance metrics. By using K-Means clustering, we aim to identify groups of stores that exhibit similar characteristics, which can provide valuable insights for targeted business strategies.
+This project segments retail stores into distinct clusters based on their sales performance using the K-Means clustering algorithm. The goal is to identify similar store groups, providing insights into business strategy and performance optimization.
 
 Dataset
-The dataset used for this project is the Retail Store Sales Dataset, which contains various attributes of stores, such as:
+The dataset used is the Retail Store Sales Dataset with the following columns:
 
 StoreID
 OperatingHours
@@ -15,20 +15,21 @@ CustomerSatisfactionScore
 AverageTransactionValue
 StoreSize
 ProductVariety
-Tasks
+Project Overview
 Data Preprocessing:
 
-Handle missing values.
-Normalize/scale numerical features to bring them to a common scale for K-Means.
+Handled missing values by imputing them where necessary.
+Normalized all numerical features, such as AnnualSales, CustomerSatisfactionScore, MonthlyFootTraffic, etc., to ensure consistency in the K-Means algorithm.
 Optimal Number of Clusters (Elbow Method):
 
-Use the Elbow Method to identify the optimal number of clusters by plotting the within-cluster sum of squares (WCSS) against the number of clusters.
+Applied the Elbow Method to determine the optimal number of clusters. This involved plotting the within-cluster sum of squares (WCSS) for various cluster counts and identifying the "elbow" point.
 K-Means Clustering:
 
-Apply the K-Means algorithm to the preprocessed data to cluster stores based on their sales performance metrics.
-Visualization:
+Implemented the K-Means clustering algorithm on the preprocessed data to segment the retail stores into clusters.
+Cluster Visualization:
 
-Visualize the resulting clusters using a scatter plot to display how stores are grouped based on their sales performance metrics.
+Visualized the clusters using a scatter plot. The clusters were distinguished by color, showcasing how different stores group together based on performance metrics.
 Cluster Interpretation:
 
-Analyze the characteristics of each cluster, focusing on key metrics such as AnnualSales, CustomerSatisfactionScore, MonthlyFootTraffic, and others to understand the performance of each group.
+Examined the characteristics of each cluster by focusing on key performance metrics such as AnnualSales, CustomerSatisfactionScore, MonthlyFootTraffic, and more.
+Summarized the performance traits for each group of stores.
